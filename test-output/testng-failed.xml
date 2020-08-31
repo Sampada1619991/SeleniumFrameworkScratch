@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="env.SubmitInvoice"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="env.SubmitInvoice$Portal">
+        <methods>
+          <include name="PrintRITMNumber"/>
+          <include name="SubmitInvoiceForm"/>
+          <include name="ClickOnSubmit"/>
+          <include name="ClickOnSubmitInvoice"/>
+          <include name="OpenIAPPortalLink"/>
+          <include name="ClickOnPTP"/>
+        </methods>
+      </class> <!-- env.SubmitInvoice$Portal -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

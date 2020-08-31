@@ -1,0 +1,384 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Sampada Chendake"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Launching the URL for Supplier Portal",
+        "description": "",
+        "id": "validate-home-page-for-supplier-portal;launching-the-url-for-supplier-portal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13785741539,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "navigate to application \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 25
+                }
+              ],
+              "location": "Step_Definations.navigate_to_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41734533333,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I logged in with username \"forceten.supplier.user\" and password \"12345\" to launch \"portal\" view",
+            "match": {
+              "arguments": [
+                {
+                  "val": "forceten.supplier.user",
+                  "offset": 27
+                },
+                {
+                  "val": "12345",
+                  "offset": 65
+                },
+                {
+                  "val": "portal",
+                  "offset": 83
+                }
+              ],
+              "location": "Step_Definations.Login(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2337771897,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check that element \"forceTenLogoOnHome\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "forceTenLogoOnHome",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_Definations.thenCheckElementIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2305633231,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check that element \"submitMenu\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submitMenu",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_Definations.thenCheckElementIsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validating Submit Tab on Home Page",
+        "description": "",
+        "id": "validate-home-page-for-supplier-portal;validating-submit-tab-on-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6703489231,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the element: \"submitMenu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submitMenu",
+                  "offset": 25
+                }
+              ],
+              "location": "Step_Definations.clickOnElement(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2285905641,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check that element \"submitTitle\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submitTitle",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_Definations.thenCheckElementIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2298779077,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "check that element \"procureToPay\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "procureToPay",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_Definations.thenCheckElementIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3254818051,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the element: \"procureToPay\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "procureToPay",
+                  "offset": 25
+                }
+              ],
+              "location": "Step_Definations.clickOnElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2291010462,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "check that element \"procureToPayTitle\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "procureToPayTitle",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_Definations.thenCheckElementIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2294939076,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "check that element \"submitInvoiceCatalog\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submitInvoiceCatalog",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_Definations.thenCheckElementIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8542907897,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the element: \"submitInvoiceCatalog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submitInvoiceCatalog",
+                  "offset": 25
+                }
+              ],
+              "location": "Step_Definations.clickOnElement(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 23,
+            "value": "#"
+          },
+          {
+            "line": 24,
+            "value": "#Scenario: Validating Mandatory Form Elements"
+          },
+          {
+            "line": 25,
+            "value": "#"
+          },
+          {
+            "line": 26,
+            "value": "#Given check that element \"clientLegalEntityTitle_supplier\" is displayed"
+          },
+          {
+            "line": 27,
+            "value": "#Then fill the data for input filed:\"clientLegalEntityTitle_supplier\"from data table row:\"Supplier Portal_Supplier User\""
+          }
+        ],
+        "line": 29,
+        "name": "File Upload Functioanlity part-1l",
+        "description": "",
+        "id": "validate-home-page-for-supplier-portal;file-upload-functioanlity-part-1l",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7536146052,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "check that element \"attachementSymbol\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "attachementSymbol",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_Definations.thenCheckElementIsDisplayed(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9077730051,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on the element: \"attachementSymbol\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "attachementSymbol",
+                  "offset": 25
+                }
+              ],
+              "location": "Step_Definations.clickOnElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2179049026,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "check that element \"forceTen_Logo\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "forceTen_Logo",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_Definations.thenCheckElementIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7604268718,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "check that element \"attachemnetTitle\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "attachemnetTitle",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_Definations.thenCheckElementIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7368127590,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "check that element \"chooseFileButton\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chooseFileButton",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_Definations.thenCheckElementIsDisplayed(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8399148718,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on the element: \"chooseFileButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chooseFileButton",
+                  "offset": 25
+                }
+              ],
+              "location": "Step_Definations.clickOnElement(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Home Page for Supplier Portal",
+    "description": "",
+    "id": "validate-home-page-for-supplier-portal",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/Portal/03_SupplierPortal/SubmitRITMSupplier.feature"
+  }
+]
