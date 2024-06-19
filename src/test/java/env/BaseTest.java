@@ -9,6 +9,7 @@ import methods.FileUpload;
 import methods.NavigateMethods;
 
 public  interface BaseTest {
+	
 	String path= System.getProperty("user.dir")+"//data//TestData.xlsx";
 	WebConnector wc= WebConnector.getInstance();
 	WebDriver driver = WebConnector.openBrowser();
